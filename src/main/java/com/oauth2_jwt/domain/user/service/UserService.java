@@ -1,9 +1,9 @@
-package com.oauth2_jwt.service;
+package com.oauth2_jwt.domain.user.service;
 
-import com.oauth2_jwt.dto.UserSignUpDto;
-import com.oauth2_jwt.entity.Role;
-import com.oauth2_jwt.entity.User;
-import com.oauth2_jwt.repository.UserRepository;
+import com.oauth2_jwt.domain.user.dto.UserSignUpDto;
+import com.oauth2_jwt.domain.user.entity.Role;
+import com.oauth2_jwt.domain.user.entity.User;
+import com.oauth2_jwt.domain.user.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;

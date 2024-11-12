@@ -1,4 +1,4 @@
-package com.oauth2_jwt.entity;
+package com.oauth2_jwt.domain.user.entity;
 
 public enum SocialType {
 

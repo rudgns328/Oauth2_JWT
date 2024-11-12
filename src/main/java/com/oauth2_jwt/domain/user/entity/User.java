@@ -1,4 +1,4 @@
-package com.oauth2_jwt.entity;
+package com.oauth2_jwt.domain.user.entity;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -34,13 +34,16 @@ public class User {
     private String refreshToken; // 리프레시 토큰
 
     @Builder
-    private User(String email, String password, String nickname, int age, String city, Role role) {
+    private User(String email, String password, String nickname, int age, String city, Role role, SocialType socialType, String socialId, String imageUrl) {
         this.email = email;
         this.password = password;
         this.nickname = nickname;
         this.age = age;
         this.city = city;
         this.role = role;
+        this.socialType = socialType;
+        this.socialId = socialId;
+        this.imageUrl = imageUrl;
     }
 
     // 유저 권한 설정 메소드

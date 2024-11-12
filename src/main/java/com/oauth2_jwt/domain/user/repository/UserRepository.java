@@ -1,7 +1,7 @@
-package com.oauth2_jwt.repository;
+package com.oauth2_jwt.domain.user.repository;
 
-import com.oauth2_jwt.entity.SocialType;
-import com.oauth2_jwt.entity.User;
+import com.oauth2_jwt.domain.user.entity.SocialType;
+import com.oauth2_jwt.domain.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

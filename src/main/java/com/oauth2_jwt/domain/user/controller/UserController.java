@@ -1,7 +1,7 @@
-package com.oauth2_jwt.controller;
+package com.oauth2_jwt.domain.user.controller;
 
-import com.oauth2_jwt.dto.UserSignUpDto;
-import com.oauth2_jwt.service.UserService;
+import com.oauth2_jwt.domain.user.dto.UserSignUpDto;
+import com.oauth2_jwt.domain.user.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

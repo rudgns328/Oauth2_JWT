@@ -1,4 +1,4 @@
-package com.oauth2_jwt.dto;
+package com.oauth2_jwt.domain.user.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

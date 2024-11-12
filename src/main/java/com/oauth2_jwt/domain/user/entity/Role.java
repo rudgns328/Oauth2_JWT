@@ -1,4 +1,4 @@
-package com.oauth2_jwt.entity;
+package com.oauth2_jwt.domain.user.entity;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
